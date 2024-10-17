@@ -1,4 +1,4 @@
-package csvTest;
+package csvTest.Read;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -10,7 +10,7 @@ public class CsvTestOpenCSV {
     public static void main(String[] args) {
         CSVReader reader = null;
         try {
-            reader = new CSVReader(new FileReader("./csvTest/CSVDemo.csv"));
+            reader = new CSVReader(new FileReader("csvTest/Read/CSVDemo.csv"));
 
             // Read header
             String[] headers = reader.readNext();

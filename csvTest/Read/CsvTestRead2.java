@@ -1,4 +1,4 @@
-package csvTest;
+package csvTest.Read;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ public class CsvTestRead2 {
         String splitBy = ",";
 
         try {
-            BufferedReader br = new BufferedReader(new FileReader("./csvTest/CSVDemo.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("csvTest/Read/CSVDemo.csv"));
 
             br.readLine(); // Skipping the header
 
